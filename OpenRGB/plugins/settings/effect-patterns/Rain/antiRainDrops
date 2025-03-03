@@ -1,0 +1,21 @@
+{
+    "AllowOnlyFirst": false,
+    "Brightness": 100,
+    "CustomSettings": {
+        "size": 2
+    },
+    "EffectClassName": "Rain",
+    "FPS": 60,
+    "RandomColors": false,
+    "Slider2Val": 20,
+    "Speed": 5,
+    "Temperature": 0,
+    "Tint": 0,
+    "UserColors": [
+        16711935,
+        16776960,
+        16776960,
+        16711935,
+        255
+    ]
+}

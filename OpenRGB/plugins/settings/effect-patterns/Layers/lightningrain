@@ -1,0 +1,91 @@
+{
+    "AllowOnlyFirst": false,
+    "Brightness": 100,
+    "CustomSettings": {
+        "groups": [
+            {
+                "composer_fn": 0,
+                "layers": [
+                    {
+                        "composer_fn": 6,
+                        "effect_settings": {
+                            "AllowOnlyFirst": false,
+                            "Brightness": 100,
+                            "CustomName": "",
+                            "CustomSettings": {
+                                "size": 2
+                            },
+                            "EffectClassName": "Rain",
+                            "FPS": 60,
+                            "RandomColors": false,
+                            "Slider2Val": 20,
+                            "Speed": 2,
+                            "Temperature": 0,
+                            "Tint": 0,
+                            "UserColors": [
+                                16711935,
+                                16776960,
+                                16776960,
+                                16711935,
+                                255
+                            ]
+                        }
+                    },
+                    {
+                        "composer_fn": 3,
+                        "effect_settings": {
+                            "AllowOnlyFirst": false,
+                            "Brightness": 100,
+                            "CustomName": "",
+                            "CustomSettings": {
+                                "lightning_mode": 0
+                            },
+                            "EffectClassName": "Lightning",
+                            "FPS": 60,
+                            "RandomColors": false,
+                            "Slider2Val": 10,
+                            "Speed": 20,
+                            "Temperature": 0,
+                            "Tint": 0,
+                            "UserColors": [
+                                255
+                            ]
+                        }
+                    },
+                    {
+                        "composer_fn": 6,
+                        "effect_settings": {
+                            "AllowOnlyFirst": false,
+                            "Brightness": 100,
+                            "CustomName": "",
+                            "CustomSettings": {
+                                "size": 2
+                            },
+                            "EffectClassName": "Rain",
+                            "FPS": 60,
+                            "RandomColors": false,
+                            "Slider2Val": 20,
+                            "Speed": 2,
+                            "Temperature": 0,
+                            "Tint": 0,
+                            "UserColors": [
+                                16711935,
+                                16776960,
+                                16776960,
+                                16711935,
+                                255
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "EffectClassName": "Layers",
+    "FPS": 60,
+    "RandomColors": false,
+    "Slider2Val": 1,
+    "Speed": 1,
+    "Temperature": 0,
+    "Tint": 0
+}

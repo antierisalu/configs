@@ -1,0 +1,17 @@
+{
+    "AllowOnlyFirst": false,
+    "Brightness": 100,
+    "CustomSettings": {
+        "lightning_mode": 0
+    },
+    "EffectClassName": "Lightning",
+    "FPS": 60,
+    "RandomColors": false,
+    "Slider2Val": 10,
+    "Speed": 20,
+    "Temperature": 0,
+    "Tint": 0,
+    "UserColors": [
+        255
+    ]
+}

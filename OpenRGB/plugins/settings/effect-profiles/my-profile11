@@ -1,0 +1,204 @@
+{
+    "Effects": [
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": false,
+            "Brightness": 100,
+            "ControllerZones": [],
+            "CustomName": "",
+            "CustomSettings": {
+                "lightning_mode": 1
+            },
+            "EffectClassName": "Lightning",
+            "FPS": 60,
+            "RandomColors": false,
+            "Slider2Val": 2,
+            "Speed": 31,
+            "Temperature": 0,
+            "Tint": 0,
+            "UserColors": [
+                255
+            ]
+        },
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": true,
+            "Brightness": 100,
+            "ControllerZones": [
+                {
+                    "description": "ENE SMBus Device",
+                    "is_segment": false,
+                    "location": "I2C: /dev/i2c-12, address 0x67",
+                    "name": "ASUS TUF RTX 3080 O10G V2 GAMING",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "",
+                    "vendor": "ASUS",
+                    "version": "AUMA0-E6K5-0107",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "MSI Mystic Light Device (185-byte)",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw0",
+                    "name": "MSI PRO Z690-A DDR4(MS-7D25)",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "A02021081203",
+                    "vendor": "MSI",
+                    "version": "AP/LD 0.3 / 1.5",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "MSI Mystic Light Device (185-byte)",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw0",
+                    "name": "MSI PRO Z690-A DDR4(MS-7D25)",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "A02021081203",
+                    "vendor": "MSI",
+                    "version": "AP/LD 0.3 / 1.5",
+                    "zone_idx": 1
+                },
+                {
+                    "description": "MSI Mystic Light Device (185-byte)",
+                    "is_segment": false,
+                    "location": "HID: /dev/hidraw0",
+                    "name": "MSI PRO Z690-A DDR4(MS-7D25)",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "A02021081203",
+                    "vendor": "MSI",
+                    "version": "AP/LD 0.3 / 1.5",
+                    "zone_idx": 2
+                }
+            ],
+            "CustomName": "",
+            "CustomSettings": {
+                "groups": [
+                    {
+                        "composer_fn": 0,
+                        "layers": [
+                            {
+                                "composer_fn": 6,
+                                "effect_settings": {
+                                    "AllowOnlyFirst": false,
+                                    "Brightness": 100,
+                                    "CustomName": "",
+                                    "CustomSettings": {
+                                        "size": 2
+                                    },
+                                    "EffectClassName": "Rain",
+                                    "FPS": 60,
+                                    "RandomColors": false,
+                                    "Slider2Val": 20,
+                                    "Speed": 2,
+                                    "Temperature": 0,
+                                    "Tint": 0,
+                                    "UserColors": [
+                                        16711935,
+                                        16776960,
+                                        16776960,
+                                        16711935,
+                                        255
+                                    ]
+                                }
+                            },
+                            {
+                                "composer_fn": 3,
+                                "effect_settings": {
+                                    "AllowOnlyFirst": false,
+                                    "Brightness": 100,
+                                    "CustomName": "",
+                                    "CustomSettings": {
+                                        "lightning_mode": 0
+                                    },
+                                    "EffectClassName": "Lightning",
+                                    "FPS": 60,
+                                    "RandomColors": false,
+                                    "Slider2Val": 10,
+                                    "Speed": 20,
+                                    "Temperature": 0,
+                                    "Tint": 0,
+                                    "UserColors": [
+                                        255
+                                    ]
+                                }
+                            },
+                            {
+                                "composer_fn": 6,
+                                "effect_settings": {
+                                    "AllowOnlyFirst": false,
+                                    "Brightness": 100,
+                                    "CustomName": "",
+                                    "CustomSettings": {
+                                        "size": 2
+                                    },
+                                    "EffectClassName": "Rain",
+                                    "FPS": 60,
+                                    "RandomColors": false,
+                                    "Slider2Val": 20,
+                                    "Speed": 2,
+                                    "Temperature": 0,
+                                    "Tint": 0,
+                                    "UserColors": [
+                                        16711935,
+                                        16776960,
+                                        16776960,
+                                        16711935,
+                                        255
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "EffectClassName": "Layers",
+            "FPS": 60,
+            "RandomColors": false,
+            "Slider2Val": 1,
+            "Speed": 1,
+            "Temperature": 0,
+            "Tint": 0
+        },
+        {
+            "AllowOnlyFirst": false,
+            "AutoStart": true,
+            "Brightness": 100,
+            "ControllerZones": [
+                {
+                    "description": "HyperX Alloy Origins Core Keyboard Device",
+                    "is_segment": false,
+                    "location": "HID /dev/hidraw3",
+                    "name": "HyperX Alloy Origins Core",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "",
+                    "vendor": "HyperX",
+                    "version": "21.08",
+                    "zone_idx": 0
+                }
+            ],
+            "CustomName": "",
+            "EffectClassName": "MovingPanes",
+            "FPS": 60,
+            "RandomColors": false,
+            "Slider2Val": 8,
+            "Speed": 34,
+            "Temperature": 0,
+            "Tint": 0,
+            "UserColors": [
+                14156031,
+                16752896
+            ]
+        }
+    ],
+    "version": 2
+}
