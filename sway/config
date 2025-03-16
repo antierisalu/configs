@@ -16,7 +16,7 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term foot
+set $term konsole
 # Your preferred application launcher
 set $menu wmenu-run
 
@@ -29,6 +29,14 @@ set $dis discord
 
 # File browser
 set $files dolphin
+
+# Autostart apps
+
+#exec swaymsg "workspace 2; exec konsole;"
+#exec swaymsg "workspace 2; exec konsole;"
+exec swaymsg "workspace 2; exec caprine;"
+exec swaymsg "workspace 2; exec discord;"
+exec swaymsg "workspace 3; exec openrgb;"
 
 ### Output configuration
 #
@@ -97,6 +105,8 @@ set $files dolphin
 
     # Launch file browser
     bindsym $mod+t exec $files
+
+    # Launch 
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
