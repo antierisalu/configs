@@ -6,6 +6,32 @@
             "Brightness": 100,
             "ControllerZones": [
                 {
+                    "description": "ENE SMBus Device",
+                    "is_segment": false,
+                    "location": "I2C: /dev/i2c-11, address 0x71",
+                    "name": "ENE DRAM",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "",
+                    "vendor": "ENE",
+                    "version": "DIMM_LED-0103",
+                    "zone_idx": 0
+                },
+                {
+                    "description": "ENE SMBus Device",
+                    "is_segment": false,
+                    "location": "I2C: /dev/i2c-11, address 0x73",
+                    "name": "ENE DRAM",
+                    "reverse": false,
+                    "segment_idx": -1,
+                    "self_brightness": 100,
+                    "serial": "",
+                    "vendor": "ENE",
+                    "version": "DIMM_LED-0103",
+                    "zone_idx": 0
+                },
+                {
                     "description": "MSI Mystic Light Device (185-byte)",
                     "is_segment": false,
                     "location": "HID: /dev/hidraw0",
