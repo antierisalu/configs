@@ -39,7 +39,7 @@ ram_total=$(free -m | grep Mem | awk '{printf "%.2f", ($2 / 1024)}')G
 # GPU
 if command -v nvidia-smi  &> /dev/null; then
 
-	gpu_name=$(nvidia-smi --query-gpu=name --format=csv,noheader):
+	gpu_name=$(nvidia-smi --query-gpu=name --format=csv,noheader | awk '{print $3, $4}'):
 	gpu_usage=$(nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits)%
 	gpu_temp=$(nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits)°C
 	gpu_w=$(nvidia-smi --query-gpu=power.draw --format=csv,noheader,nounits)W
