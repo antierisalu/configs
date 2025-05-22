@@ -19,7 +19,7 @@ font pango:SauceCodePro Nerd Font 9
 #font pango:DejaVu Sans Mono 8
 
 # Set primary display
-exec --no-startup-id xrandr --output DP-0 --primary --mode 2560x1440 --pos 0x160 --output HDMI-0 --mode 1920x1080 --pos 2560x0 --rotate right
+exec --no-startup-id xrandr --output DP-0 --primary --mode 2560x1440 --rate 144 --pos 0x160 --output HDMI-0 --mode 1920x1080 --pos 2560x0 --rotate right
 
 # Start OpenRGB
 exec --no-startup-id openrgb --startminimized
@@ -81,8 +81,7 @@ bindsym $mod+Mod1+m exec caprine
 bindsym $mod+Mod1+d exec discord
 
 # Launch file browser
-bindsym $mod+t exec nautilus
-
+bindsym $mod+t exec dolphin
 
 # change focus
 bindsym $mod+j focus left
