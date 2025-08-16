@@ -24,6 +24,9 @@ exec --no-startup-id xrandr --output DP-0 --primary --mode 2560x1440 --rate 144 
 # Start OpenRGB
 exec --no-startup-id openrgb --startminimized
 
+# Start volumeicon
+exec --no-startup-id volumeicon
+
 # workspaces
 workspace 1 output DP-0
 workspace 2 output HDMI-0
@@ -58,6 +61,9 @@ floating_modifier $mod
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
 
+# lock with i3 lock
+bindsym $mod+Mod1+l exec i3lock --color=000000
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
@@ -79,6 +85,9 @@ bindsym $mod+Mod1+m exec caprine
 
 # Start Discord
 bindsym $mod+Mod1+d exec discord
+
+# Start Telegram
+bindsym $mod+Mod1+t exec Telegram
 
 # Launch file browser
 bindsym $mod+t exec dolphin
