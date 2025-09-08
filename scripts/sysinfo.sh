@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Interface to monitor (e.g., wlp2s0 for Wi-Fi, eth0 for Ethernet)
-INTERFACE="enp4"
+INTERFACE=$(ls /sys/class/net | grep -E '^(eno|enp|ens|enx|eth|wlan|wlp)')
 
 # Function to get the current RX and TX bytes
 get_bytes() {
@@ -52,8 +52,8 @@ else
 fi
 
 CPU="$cpu_name $cpu_temp - $cpu_usage |"
-RAM="RAM: $ram_usage / $ram_total |"
-NET="Network: $RX_MBPS ↓↑ $TX_MBPS |"
+RAM="MEM: $ram_usage / $ram_total |"
+NET="$INTERFACE: $RX_MBPS ↓↑ $TX_MBPS |"
 DATE=$(date +'%d-%m-%Y %T')
 
 # Output the combined status
