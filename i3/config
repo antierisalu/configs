@@ -19,7 +19,10 @@ font pango:SauceCodePro Nerd Font 9
 #font pango:DejaVu Sans Mono 8
 
 # Set primary display
-exec --no-startup-id xrandr --output DP-0 --primary --mode 2560x1440 --rate 144 --pos 0x160 --output HDMI-0 --mode 1920x1080 --pos 2560x0 --rotate right
+exec --no-startup-id xrandr --output DP-0 --primary --mode 2560x1440 --rate 144 --pos 1080x160 --output HDMI-0 --mode 1920x1080 --pos 0x0 --rotate left
+
+# Start solaar for logitech
+exec --no-startup-id solaar --window=hide
 
 # Start OpenRGB
 exec --no-startup-id openrgb --startminimized
